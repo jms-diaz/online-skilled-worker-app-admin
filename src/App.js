@@ -1,25 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import Dashboard from './pages/Dashboard';
+import React from 'react';
+import Login from './pages/Login';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { useContext } from 'react';
+import { Context } from './context/Context';
+import Page404 from './pages/Page404';
+import './scss/style.scss';
+
+const loading = (
+	<div className="pt-3 text-center">
+		<div className="sk-spinner sk-spinner-pulse" />
+	</div>
+);
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	const { user } = useContext(Context);
+
+	return (
+		<Router>
+			<React.Suspense fallback={loading}>
+				<Routes>
+					<Route path="*" element={<Page404 />} />
+					<Route path="/" element={user ? <Dashboard /> : <Login />} />
+					<Route path="/login" element={user ? <Dashboard /> : <Login />} />
+				</Routes>
+			</React.Suspense>
+		</Router>
+	);
 }
 
 export default App;
