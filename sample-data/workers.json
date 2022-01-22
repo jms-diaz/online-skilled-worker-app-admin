@@ -1,0 +1,193 @@
+[{
+  "_id": {
+    "$oid": "61ea5d481508a0c88ea9e7ec"
+  },
+  "fullName": "Gerald De Leon",
+  "profilePicture": "1642749255960pepito.png",
+  "contactNumber": 9743718978,
+  "gender": "Male",
+  "occupation": "Mason-Carpenter",
+  "address": "510, Arsenio H. Lacson Avenue, Sampaloc, Manila, 1008 Metro Manila",
+  "latitude": 14.6017115,
+  "longitude": 120.9991688,
+  "verified": false,
+  "education": [
+    {
+      "universityName": "N/A",
+      "qualification": "No formal education",
+      "graduationDate": {
+        "$date": "2022-01-21T00:00:00Z"
+      },
+      "universityLocation": "N/A",
+      "fieldOfStudy": "N/A",
+      "_id": {
+        "$oid": "61ea5d481508a0c88ea9e7f0"
+      }
+    }
+  ],
+  "experience": [
+    {
+      "companyName": "LSERV Corporation",
+      "positionTitle": "Mason-Carpenter",
+      "joinedDurationStart": "2012",
+      "joinedDurationEnd": "2019",
+      "country": "Phillipines",
+      "industry": "Engineering",
+      "experienceDescription": "",
+      "_id": {
+        "$oid": "61ea5d691508a0c88ea9e7f4"
+      }
+    }
+  ],
+  "jobsTaken": [
+    {
+      "name": "Boker Three",
+      "jobTitle": "Occupational Nurse",
+      "jobDescription": "P&G was founded over 180 years ago as a simple soap and candle company. Today, we're the world’s largest consumer goods company and home to iconic, trusted brands that make life a little bit easier in small but meaningful ways. We've spanned three centuries thanks to three simple ideas: leadership, innovation and citizenship. The insight, innovation and passion of hardworking teams has helped us grow into a global company that is governed responsibly and ethically, that is open and transparent, and that supports good causes and protects the environment. This is a place where you can be proud to work and do something that matters.",
+      "salary": 11000,
+      "jobLocation": "Quiricada St, Santa Cruz, Manila, 1003 Metro Manila",
+      "latitude": 14.6131935,
+      "longitude": 120.9815358,
+      "completed": true,
+      "paid": true,
+      "takenBy": "Gerald De Leon",
+      "_id": {
+        "$oid": "61e7a76b933b8b47a562905f"
+      },
+      "updatedAt": {
+        "$date": "2022-01-21T14:16:22.730Z"
+      },
+      "createdAt": {
+        "$date": "2022-01-19T05:53:47.674Z"
+      },
+      "__v": 0
+    },
+    {
+      "name": "Boker Three",
+      "jobTitle": "Construction Worker",
+      "jobDescription": "Perform tasks involving physical labor at construction sites. May operate hand and power tools of all types",
+      "salary": 6000,
+      "jobLocation": "596 F. Torres St, Santa Cruz, Manila, 1003 Metro Manila",
+      "latitude": 14.6032184,
+      "longitude": 120.9809316,
+      "completed": false,
+      "paid": false,
+      "takenBy": "Gerald De Leon",
+      "_id": {
+        "$oid": "61eaadceea7145246f15f80d"
+      },
+      "updatedAt": {
+        "$date": "2022-01-21T12:57:50.708Z"
+      },
+      "createdAt": {
+        "$date": "2022-01-21T12:57:50.708Z"
+      },
+      "__v": 0
+    }
+  ],
+  "createdAt": {
+    "$date": "2022-01-21T07:14:16.328Z"
+  },
+  "updatedAt": {
+    "$date": "2022-01-21T14:36:29.113Z"
+  },
+  "__v": 17
+},{
+  "_id": {
+    "$oid": "61eb963e27b0c2c74f15e4b8"
+  },
+  "fullName": "Giovani Stokes",
+  "profilePicture": "164282937370113.jpg",
+  "contactNumber": 9762364378,
+  "gender": "Male",
+  "occupation": "Masonry Laborer",
+  "address": "112 11th Street, New Manila, Quezon City, 1112 Metro Manila",
+  "latitude": 14.6197496,
+  "longitude": 121.0280927,
+  "verified": false,
+  "education": [
+    {
+      "universityName": "Manila High School",
+      "qualification": "Secondary education",
+      "graduationDate": {
+        "$date": "2020-07-11T00:00:00Z"
+      },
+      "universityLocation": "Manila City",
+      "fieldOfStudy": "Senior High School",
+      "_id": {
+        "$oid": "61eb963e27b0c2c74f15e4bc"
+      }
+    }
+  ],
+  "experience": [
+    {
+      "companyName": "Greenfelder Inc",
+      "positionTitle": "Mason",
+      "joinedDurationStart": "2020",
+      "joinedDurationEnd": "2021",
+      "country": "Phillipines",
+      "industry": "Engineering",
+      "experienceDescription": "",
+      "_id": {
+        "$oid": "61eb965827b0c2c74f15e4c0"
+      }
+    }
+  ],
+  "jobsTaken": [],
+  "createdAt": {
+    "$date": "2022-01-22T05:29:34.264Z"
+  },
+  "updatedAt": {
+    "$date": "2022-01-22T05:30:00.713Z"
+  },
+  "__v": 2
+},{
+  "_id": {
+    "$oid": "61eb96d627b0c2c74f15e4c5"
+  },
+  "fullName": "Alisha Heaney",
+  "profilePicture": "164282952591246.jpg",
+  "contactNumber": 9847376264,
+  "gender": "Female",
+  "occupation": "Manicurist",
+  "address": "1264 Old Antipolo St, Tondo, Manila, Metro Manila",
+  "latitude": 14.6227553,
+  "longitude": 120.9806125,
+  "verified": false,
+  "education": [
+    {
+      "universityName": "Plaridel High School",
+      "qualification": "Secondary education",
+      "graduationDate": {
+        "$date": "2018-03-17T00:00:00Z"
+      },
+      "universityLocation": "Manila City",
+      "fieldOfStudy": "Senior High School",
+      "_id": {
+        "$oid": "61eb96d627b0c2c74f15e4c9"
+      }
+    }
+  ],
+  "experience": [
+    {
+      "companyName": "West-Skiles Salon",
+      "positionTitle": "Manicurist",
+      "joinedDurationStart": "2019",
+      "joinedDurationEnd": "2021",
+      "country": "Phillipines",
+      "industry": "Healthcare & Medical",
+      "experienceDescription": "",
+      "_id": {
+        "$oid": "61eb970027b0c2c74f15e4cd"
+      }
+    }
+  ],
+  "jobsTaken": [],
+  "createdAt": {
+    "$date": "2022-01-22T05:32:06.481Z"
+  },
+  "updatedAt": {
+    "$date": "2022-01-22T05:32:48.579Z"
+  },
+  "__v": 2
+}]

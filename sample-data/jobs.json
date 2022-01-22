@@ -1,0 +1,164 @@
+[{
+  "_id": {
+    "$oid": "61e7600e8ca74aaae7a46fdb"
+  },
+  "name": "Sheen Malinaw",
+  "jobTitle": "Substitute Teacher",
+  "jobDescription": "Job Description:\n• Knowledgeable in basic subjects.\n• BS Math major\n• Willing to be trained in Singapore math\n• Fluent in both English and Filipino\n\nBenefits:\n• Work from home\n\nSchedule:\n• Afternoon shift\n\nEducation:\n• Bachelor's (Preferred)\n\nWork Remotely:\n• Temporarily due to COVID-19",
+  "salary": 4000,
+  "jobLocation": "883 Gen. Geronimo St, Sampaloc, Manila, 1008 Metro Manila",
+  "latitude": 14.6075388,
+  "longitude": 120.9968334,
+  "completed": true,
+  "paid": true,
+  "createdAt": {
+    "$date": "2022-01-19T00:49:18.128Z"
+  },
+  "updatedAt": {
+    "$date": "2022-01-21T14:37:49.261Z"
+  },
+  "__v": 0,
+  "takenBy": "Gerald De Leon"
+},{
+  "_id": {
+    "$oid": "61e760688ca74aaae7a46ff7"
+  },
+  "name": "Sheen Malinaw",
+  "jobTitle": "Substitute Teacher",
+  "jobDescription": "Requirements:\n• With at least 2 years of High School Teaching, age is 40 years old and below\n• Knowledge of using a Learning Management System\n• With good oral and written communication skills and positive work attitude.",
+  "salary": 4000,
+  "jobLocation": "883 Gen. Geronimo St, Sampaloc, Manila, 1008 Metro Manila",
+  "latitude": 14.6075388,
+  "longitude": 120.9968334,
+  "completed": false,
+  "createdAt": {
+    "$date": "2022-01-19T00:50:48.426Z"
+  },
+  "updatedAt": {
+    "$date": "2022-01-19T00:50:48.426Z"
+  },
+  "__v": 0,
+  "paid": false
+},{
+  "_id": {
+    "$oid": "61e7a76b933b8b47a562905f"
+  },
+  "name": "Boker Three",
+  "jobTitle": "Occupational Nurse",
+  "jobDescription": "P&G was founded over 180 years ago as a simple soap and candle company. Today, we're the world’s largest consumer goods company and home to iconic, trusted brands that make life a little bit easier in small but meaningful ways. We've spanned three centuries thanks to three simple ideas: leadership, innovation and citizenship. The insight, innovation and passion of hardworking teams has helped us grow into a global company that is governed responsibly and ethically, that is open and transparent, and that supports good causes and protects the environment. This is a place where you can be proud to work and do something that matters.",
+  "salary": 11000,
+  "jobLocation": "Quiricada St, Santa Cruz, Manila, 1003 Metro Manila",
+  "latitude": 14.6131935,
+  "longitude": 120.9815358,
+  "completed": true,
+  "paid": true,
+  "createdAt": {
+    "$date": "2022-01-19T05:53:47.674Z"
+  },
+  "updatedAt": {
+    "$date": "2022-01-21T14:16:22.714Z"
+  },
+  "__v": 0,
+  "takenBy": "Gerald De Leon"
+},{
+  "_id": {
+    "$oid": "61eaadceea7145246f15f80d"
+  },
+  "name": "Boker Three",
+  "jobTitle": "Construction Worker",
+  "jobDescription": "Perform tasks involving physical labor at construction sites. May operate hand and power tools of all types",
+  "salary": 6000,
+  "jobLocation": "596 F. Torres St, Santa Cruz, Manila, 1003 Metro Manila",
+  "latitude": 14.6032184,
+  "longitude": 120.9809316,
+  "completed": false,
+  "paid": false,
+  "createdAt": {
+    "$date": "2022-01-21T12:57:50.708Z"
+  },
+  "updatedAt": {
+    "$date": "2022-01-21T14:32:44.786Z"
+  },
+  "__v": 0,
+  "takenBy": "Gerald De Leon"
+},{
+  "_id": {
+    "$oid": "61eb936a27b0c2c74f15e33c"
+  },
+  "name": "Juanita L. Gehlert",
+  "jobTitle": "Nail Technician",
+  "jobDescription": "• Discuss nail treatments and services available.\n• Remove nail polish.\n• Clean, trim, and file nails.\n• Reduce calluses and rough skin.",
+  "salary": 5000,
+  "jobLocation": "Pedro Gil St, Ermita, Manila, 1000 Metro Manila",
+  "latitude": 14.5742607,
+  "longitude": 120.98293,
+  "completed": false,
+  "paid": false,
+  "createdAt": {
+    "$date": "2022-01-22T05:17:30.208Z"
+  },
+  "updatedAt": {
+    "$date": "2022-01-22T05:17:30.208Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61eb93c827b0c2c74f15e370"
+  },
+  "name": "Juanita L. Gehlert",
+  "jobTitle": "Manicurist",
+  "jobDescription": "With at least 1 year work experience. Knows basic manicure, pedicure, gel polish, foot spa and hand spa. Nail Art, Acrylic and wax hair removal skills and experience is a plus. Good attitude is a big plus: can follow instructions well, willing to learn and with work initiative.",
+  "salary": 7000,
+  "jobLocation": "1087 Ocampo St, San Andres Bukid, Manila, 1004 Metro Manila",
+  "latitude": 14.5647385,
+  "longitude": 120.9993598,
+  "completed": false,
+  "paid": false,
+  "createdAt": {
+    "$date": "2022-01-22T05:19:04.386Z"
+  },
+  "updatedAt": {
+    "$date": "2022-01-22T05:19:04.386Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61eb943027b0c2c74f15e390"
+  },
+  "name": "Seth Bradtke",
+  "jobTitle": "Masonry Laborer",
+  "jobDescription": "• Assist in building layout, framing, sheathing, and roofing structures.\n• Use equipment and tools to safely perform basic construction tasks.\n• Correct any safety hazards and report them to the foreman. Communicate any more serious safety issues.",
+  "salary": 4000,
+  "jobLocation": "1316 M.F. Jhocson St, Sampaloc, Manila, 1008 Metro Manila",
+  "latitude": 14.6048987,
+  "longitude": 120.9942098,
+  "completed": false,
+  "paid": false,
+  "createdAt": {
+    "$date": "2022-01-22T05:20:48.861Z"
+  },
+  "updatedAt": {
+    "$date": "2022-01-22T05:20:48.861Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61eb947427b0c2c74f15e3a7"
+  },
+  "name": "Seth Bradtke",
+  "jobTitle": "Maintenance Technician",
+  "jobDescription": "• Conduct daily inspection maintenance checklist of the office building;\n• Prepare job repair requests to be submitted to the GSD Administrative Officer assigned in the office and building maintenance;\n• Perform any mechanical, electrical, plumbing, carpentry and air-conditioning installation, repair and restoration work as the need arises;",
+  "salary": 6000,
+  "jobLocation": "20 N Domingo St, San Juan, Metro Manila",
+  "latitude": 14.6051374,
+  "longitude": 121.0228197,
+  "completed": false,
+  "paid": false,
+  "createdAt": {
+    "$date": "2022-01-22T05:21:56.752Z"
+  },
+  "updatedAt": {
+    "$date": "2022-01-22T05:21:56.752Z"
+  },
+  "__v": 0
+}]
