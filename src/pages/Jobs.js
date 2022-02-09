@@ -69,7 +69,7 @@ export default function Jobs() {
 	}
 
 	return (
-		<CContainer lg>
+		<CContainer lg id="jobs" name="jobs">
 			<CRow>
 				<CCol xs>
 					<CCard className="mb-4">

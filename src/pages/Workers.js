@@ -1,4 +1,4 @@
-import React, { useEffect, useMemo, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { CContainer, CRow, CCol, CCard, CCardBody } from '@coreui/react';
 import { getWorkers } from '../api/api';
 import WorkerTable from '../components/workerTable';
@@ -31,46 +31,12 @@ export default function Workers() {
 			.finally(() => setLoading(false));
 	}, []);
 
-	const columns = useMemo(
-		() => [
-			{
-				Header: 'ID',
-				accessor: 'id'
-			},
-			{
-				Header: 'Name',
-				accessor: 'name'
-			},
-			{
-				Header: 'Occupation',
-				accessor: 'occupation'
-			},
-			{
-				Header: 'Address',
-				accessor: 'address'
-			},
-			{
-				Header: 'Gender',
-				accessor: 'gender'
-			},
-			{
-				Header: 'Contact Number',
-				accessor: 'contactNumber'
-			},
-			{
-				Header: 'Status',
-				accessor: 'status'
-			}
-		],
-		[]
-	);
-
 	if (workers.length === 0 && !loading) {
 		return <div className="mb-5">No workers available</div>;
 	}
 
 	return (
-		<CContainer lg>
+		<CContainer lg id="workers" name="workers">
 			<CRow>
 				<CCol xs>
 					<CCard className="mb-4">
@@ -80,7 +46,7 @@ export default function Workers() {
 							</h4>
 							<div className="mb-5">
 								{loading && <span>Fetching data</span>}
-								<WorkerTable columns={columns} data={workers} />
+								<WorkerTable data={workers} />
 							</div>
 						</CCardBody>
 					</CCard>

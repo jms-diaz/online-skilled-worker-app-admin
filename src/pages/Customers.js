@@ -64,7 +64,7 @@ export default function Customers() {
 	}
 
 	return (
-		<CContainer lg>
+		<CContainer lg id="customers" name="customers">
 			<CRow>
 				<CCol xs>
 					<CCard className="mb-4">
